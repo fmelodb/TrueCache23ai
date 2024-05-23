@@ -1,0 +1,13 @@
+true_cache=true
+db_name=DEMODB
+db_unique_name=tcdb1_gru
+db_domain=dbvcn.oraclevcn.com
+db_files=200
+instance_name=tcdb1
+sga_target=8G
+fal_server=demodb
+fal_client=tcdb1
+instance_name=tcdb1
+db_create_file_dest=/u02/app/oracle/oradata/tcdb1_gru
+local_listener=listener_tcdb1
+remote_listener=listener_demodb

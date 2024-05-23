@@ -1,0 +1,7 @@
+BEGIN   
+   DBMS_SERVICE.START_SERVICE('SALES_TC');
+END;
+/
+
+
+
