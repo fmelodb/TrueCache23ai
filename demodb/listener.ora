@@ -14,3 +14,6 @@ LISTENER =
       (ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC1521))
     )
   )
+
+VALID_NODE_CHECKING_REGISTRATION_listener=on
+REGISTRATION_INVITED_NODES_listener = (10.1.0.0/24, demodb.dbvcn.oraclevcn.com, truecache1.dbvcn.oraclevcn.com)
