@@ -9,5 +9,4 @@ fal_server=demodb
 fal_client=tcdb1
 instance_name=tcdb1
 db_create_file_dest=/u02/app/oracle/oradata/tcdb1_gru
-local_listener=listener_tcdb1
-remote_listener=listener_demodb
+listener_networks='((NAME=NET2)(LOCAL_LISTENER=truecache1.dbvcn.oraclevcn.com:1521)(REMOTE_LISTENER=demodb.oraclevcn.com:1521))'
